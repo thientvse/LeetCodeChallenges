@@ -20,10 +20,13 @@ class Solution {
                     countGoodString++;
                 }
                 
-                char c = s.charAt(windowStart);
-                int freq = mp.get(c) - 1;
-                if(freq == 0) mp.remove(c);
-                else mp.put(c , freq);
+                char left = s.charAt(windowStart);
+                
+                mp.put(left, mp.get(left) - 1);
+
+                if(mp.get(left) == 0){
+                    mp.remove(left);
+                }
                 
                 windowStart++;
                 

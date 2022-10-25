@@ -25,5 +25,11 @@ class Solution {
                Va nguoc lai
         */ 
         
+        /**
+            1. Tao 2 mang ky tu voi s va t
+            2. sort 2 mang
+            3. duyet vao so sanh tung phan tu trong mang
+        
+        */
     }
 }

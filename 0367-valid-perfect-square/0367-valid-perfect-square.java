@@ -5,7 +5,7 @@ class Solution {
         long start  = 0;
         long end = num/2;
         
-        
+        // chu y ten bien la long vi khi sqrt len se bi tran
         
         
         while (start <= end){
